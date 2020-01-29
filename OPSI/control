@@ -1,0 +1,31 @@
+[Package]
+version: 1
+depends: 
+
+[Product]
+type: localboot
+id: teska-eikes-baumschule
+name: teska-eikes-baumschule
+description: Installiert Eikes-Baumschule
+advice: 
+version: 1.0
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup.opsiscript
+uninstallScript: uninstall.opsiscript
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript: 
+
+[ProductProperty]
+type: unicode
+name: desktopicon
+multivalue: False
+editable: True
+description: Löscht Icon auf dem Desktop
+values: ["ja", "nein"]
+default: ["nein"]
+
